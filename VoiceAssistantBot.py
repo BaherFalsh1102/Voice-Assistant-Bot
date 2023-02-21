@@ -51,7 +51,7 @@ def bot() -> str:
         a = 'opening Youtube .....'
         print("Cilia:" + a)
         engine.say(a)
-        # Add a URL of Google to open it in a browser
+        # Add a URL of youtube to open it in a browser
         url = 'https://www.youtube.com/'
         # Open the URL using open() function of module
         webbrowser.open(url, new=0, autoraise=True)
